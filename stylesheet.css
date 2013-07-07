@@ -49,54 +49,38 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-body {
-	margin: 0 auto;
-	font-size: 16px;
-	text-align: left;
-	width: 1024px;
-	font-family: 'Advent Pro', sans-serif;
-} 
-
-#nav ul li {
-	float: right;
-	vertical-align: center;  
-	font-size:30px;
-	font-color: #FFFFCC;
-	float: right;
-	margin-top: 20px;
-}
-
-button { 
-	background-color: #F2ECDF;
-	font-color: white;
-	width: 150px;
-	height: 30px;
-	font-family: arial;
-	font-size: 15px;
-	padding-top: 3px;
-	border-radius: 5px;
-	border-color: #BAA88B;
-	vertical-align: center;
-	}
-
-li a:hover {
-	text-decoration: underline;
+html {
+	background-size: 100%;
+	background-color: #10121C; 
 }
 
 header {
-	padding-top: 10px;
-	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
-h1{ font-size:50px;
+body {
+	margin: 0 auto;
+	background-color: white;
+	padding: 1em;
+	font-size: 1.6em;
+	text-align: left;
+	width: 1024px;
+	font-family: 'Dosis', sans-serif;
+	border-style: solid;
+	border-color: #10121C; /*color called 'Saturn' from wwww.colorlovers.com*/
+	border-width: 5px; 
+	border-radius: 10px;
+} 
+
+h1 { 
+	font-size:50px;
 	text-align: center;
 	float:left;
-    margin-top: 10px;
+	margin-bottom: 3px;
 }
 
 h2{
 	font-size:30px;
-	font-style: italic;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -105,53 +89,76 @@ h2{
 #picture1 {
 	width:100%;
 	float: right;
-	border-radius: 20px;
-	height: 30%;
-	width: 30%;
-	padding-bottom: 10px;
+	border-radius: 20%;
+	height: 38%;
+	width: 38%;
 }
 
-p {
-	margin:10px;
-	font-size:18px;
-	text-align: justify;
-	padding: 2px;
+#nav {
+	height: 35px;
+	width: 100px;
+	display: inline;
 }
 
-li {
+#nav li {
 	list-style: none;
+	float: right;
+	vertical-align: middle;
+	margin-top: 21px;
+	margin-left: 10px;
+	width: 120px;
+    height: 25px;
+    color: white;
+    background-color: #10121C;
+    border:1px solid #10121C;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+#nav li:hover {
+	opacity:.8;
+    font-weight: bold;
+}
+
+#nav li a { 
+	text-decoration: none;
+	color: inherit;
+	cursor: auto;
 }
 
 aside {
-	width: 30%;
-	height: 10%;
+	width: 40%;
+	height: 40%;
 	float: left;
-	margin-top: 10px;
 }
 
 #section {
 	clear: all;
-	font-size:12px; 
+	font-size:16px; 
 	float: left;
-	width: 65%;
-	margin-top: 5px;
+	width: 60%;
 }
 
-#content {
-	clear: both;
+p {
+	font-size:18px;
+	line-height: 25px;
+	padding-bottom: 20px;
+	text-align: justify;
 }
 
 footer {
-	text-align:left;
+	height: 40px;
 }
-
 footer img {
-height: 30px;
-width: 30px
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding-right: 10px;
 }
 
 hr {
-	clear:both;
+	clear:all;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 10px;
 }
